@@ -107,9 +107,9 @@ function showOne(){
   <br><br>Finally, I refined a single design. In the finished sequence, squares randomly unfold to reveal a grid. This motion reflects a core value of the company: finding order and direction in confusing situations. The clip is short and simple, but it tells a story about the brand.
   `;
   document.getElementById("descriptionImages").innerHTML = `
-  <img src="nile01.png" alt="Blue Grid Squares" class="descriptionImage">
-  <img src="nile02.png" alt="Mood Board" class="descriptionImage">
-  <img src="nile-motion.gif" alt="Motion Graphics" class="descriptionImage">
+  <img src="images/nile01.png" alt="Blue Grid Squares" class="descriptionImage">
+  <img src="images/nile02.png" alt="Mood Board" class="descriptionImage">
+  <img src="images/nile-motion.gif" alt="Motion Graphics" class="descriptionImage">
   `;
 }
 
@@ -121,9 +121,9 @@ function showTwo(){
   <br><br>Finally, I combined the images with short phrases to create a simple design for each screen. I borrowed colours from the existing Velappity branding, but brightened them to make these initial screens more eye-catching.  By using bold images and snappy headings, the onboarding screens were easy to understand.
   `;
   document.getElementById("descriptionImages").innerHTML = `
-  <img src="onboard01.jpg" alt="Onboarding Screens" class="descriptionImage">
-  <img src="onboard02.jpg" alt="Illustrations" class="descriptionImage">
-  <img src="onboard03.png" alt="Sketches" class="descriptionImage">
+  <img src="images/onboard01.jpg" alt="Onboarding Screens" class="descriptionImage">
+  <img src="images/onboard02.jpg" alt="Illustrations" class="descriptionImage">
+  <img src="images/onboard03.png" alt="Sketches" class="descriptionImage">
   `;
 }
 
@@ -137,11 +137,11 @@ function showThree(){
   <br><br>Finally, I designed the Reports List. This page shows completed reports in a simple table format. On smaller screens, each table entry is expandable to show extra information. The search filter makes it easier to narrow down a specific report, meaning documents will not get lost.
   `;
   document.getElementById("descriptionImages").innerHTML = `
-  <img src="portal01.png" alt="Statistics" class="descriptionImage">
-  <img src="portal02.jpg" alt="Mood Boards" class="descriptionImage">
-  <img src="portal03.jpg" alt="Log Book" class="descriptionImage">
-  <img src="portal04.jpg" alt="Client Portal" class="descriptionImage">
-  <img src="portal05.jpg" alt="Client Portal - Mobile" class="descriptionImage">
+  <img src="images/portal01.png" alt="Statistics" class="descriptionImage">
+  <img src="images/portal02.jpg" alt="Mood Boards" class="descriptionImage">
+  <img src="images/portal03.jpg" alt="Log Book" class="descriptionImage">
+  <img src="images/portal04.jpg" alt="Client Portal" class="descriptionImage">
+  <img src="images/portal05.jpg" alt="Client Portal - Mobile" class="descriptionImage">
   `;
 }
 
@@ -155,9 +155,9 @@ function showFour(){
   <br><br>Although this was just a short project, it was fun to get creative and work on something different.
   `;
   document.getElementById("descriptionImages").innerHTML = `
-  <img src="plantpot01.PNG" alt="Plantpot" class="descriptionImage">
-  <img src="plantpot02.png" alt="Plantpot Mobile" class="descriptionImage">
-  <img src="plantpot03.jpg" alt="Plantpot Desktop" class="descriptionImage">
+  <img src="images/plantpot01.PNG" alt="Plantpot" class="descriptionImage">
+  <img src="images/plantpot02.png" alt="Plantpot Mobile" class="descriptionImage">
+  <img src="images/plantpot03.jpg" alt="Plantpot Desktop" class="descriptionImage">
   `;
 }
 
@@ -171,10 +171,10 @@ function showFive(){
   <br><br>Although this video is very tongue and cheek, I could easily transfer these skills to a more “serious” animation project in the future.
   `;
   document.getElementById("descriptionImages").innerHTML = `
-  <img src="story01.png" alt="Illustration" class="descriptionImage">
-  <img src="story02.jpg" alt="Storyboard" class="descriptionImage">
-  <img src="story03.jpg" alt="Sketches" class="descriptionImage">
-  <img src="story04.jpg" alt="Illustration" class="descriptionImage">
+  <img src="images/story01.png" alt="Illustration" class="descriptionImage">
+  <img src="images/story02.jpg" alt="Storyboard" class="descriptionImage">
+  <img src="images/story03.jpg" alt="Sketches" class="descriptionImage">
+  <img src="images/story04.jpg" alt="Illustration" class="descriptionImage">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/UJC8_EX3vXc" class="descriptionImage" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   `;
   jQuery(function() {

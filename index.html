@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<!--head-->
+  <head>
+    <title>Charlotte Holland | Digital Designer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+<!--body-->
+  <body>
+    <script>document.body.className += ' fade-out';</script>
+    <!--header-->
+    <header>
+      <div id="site-header">
+        <a href="index.html" id="site-title">
+          Charl<span>o</span>tte H<span>o</span>lland
+        </a>
+        <nav id="site-menu">
+          <ul>
+            <li><a href="#aboutAnchor">About</a></li>
+            <li><a href="#portfolioAnchor">Portfolio</a></li>
+            <li><a href="#contactAnchor">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+     <!--site content-->
+    <main class="content">
+      <!--hero-->
+      <section id="hero">
+        <div>
+          <h1>Hello, I'm Charlotte.</h1>
+          <p>I'm a digital designer based in Edinburgh, Scotland. From Animation to Illustration, UX/UI, Web Design and more - I can make any project shine!</p>
+        </div>
+      </section>
+      <section class="divider" id="divider-one"></section>
+      <!--about-->
+      <section id="about">
+        <span id="aboutAnchor" class="anchor"></span>
+        <h1>About Me.</h1>
+        <div id="about-grid">
+          <div id="image">
+            <div></div>
+            <img src="portrait.jpg" alt="My face">
+          </div>
+          <div id="text">
+            <div>
+              <p>I recently graduated from Glasgow School of Art with a degree in Interaction Design. Now, I want to take my first steps as a Junior Digital Designer. </p>
+              <p>I take an interest in anything digital. This includes web design, UX/UI, graphic design, illustration, animation, games design, and a tiny bit of development. I like having a finger in every pie. Although it's a bit of a cliché, I'm all about "creating experiences".</p>
+              <p>My ambition is to land a job as part of a charismatic team and to generate designs I'm truly proud of. (I also wish to fund my love for eating way too much sushi or getting very muddy at rock festivals.)</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="divider" id="divider-two"></section>
+      <!--portfolio-->
+      <section id="portfolio">
+        <span id="portfolioAnchor" class="anchor"></span>
+        <h1>My Portfolio.</h1>
+        <div id="description">
+          <span id="descriptionAnchor" class="anchor"></span>
+          <a href="#portfolioAnchor">
+            <div id="back" onclick="unPop()">&lt; BACK</div>
+          </a>
+          <h3 id="descriptionTitle"></h3>
+          <div id="descriptionContainer">
+            <div id="descriptionImages"></div>
+            <p id="descriptionText"></p>
+          </div>
+        </div>
+        <div id="tiles">
+          <a href="#descriptionAnchor">
+            <div id="projectOne" onclick="pop(1)">
+              <div class="tile"></div>
+              <h3>Nile</h3>
+              <p>Motion Graphics</p>
+            </div>
+          </a>
+          <a href="#descriptionAnchor">
+            <div id="projectTwo" onclick="pop(2)">
+              <div class="tile"></div>
+              <h3>Velappity</h3>
+              <p>Illustration, UX/UI</p>
+            </div>
+          </a>
+          <a href="#descriptionAnchor">
+            <div id="projectThree" onclick="pop(3)">
+              <div class="tile"></div>
+              <h3>Velappity</h3>
+              <p>Web Design, UX/UI</p>
+            </div>
+          </a>
+          <a href="#descriptionAnchor">
+            <div id="projectFour" onclick="pop(4)">
+              <div class="tile"></div>
+              <h3>Plantpot</h3>
+              <p>Web Design</p>
+            </div>
+          </a>
+          <a href="#descriptionAnchor">
+            <div id="projectFive" onclick="pop(5)">
+              <div class="tile"></div>
+              <h3>The Story of Sex Toys</h3>
+              <p>Illustration, Animation</p>
+            </div>
+          </a>
+        </div>
+      </section>
+      <section class="divider" id="divider-three"></section>
+      <!--contact-->
+      <section id="contact">
+        <span id="contactAnchor" class="anchor"></span>
+        <h1>Let's Connect.</h1>
+        <a href="mailto:cholland348@gmail.com"><span><img src="email.png" height="12px"></span> cholland348@gmail.com</a>
+        <a href="https://www.linkedin.com/in/charlotte-holland-4a0983116/" target="_blank"><img src="linkedin.png" height="18px"></a>
+      </section>
+    </main>
+  </body>
+</html>

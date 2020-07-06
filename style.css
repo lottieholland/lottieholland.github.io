@@ -105,7 +105,7 @@ section{
 }
 
 #hero{
-  background: url(images/hero-img.png) center / cover no-repeat #e6eefa;
+  background: url("images/hero-img.png") center / cover no-repeat #e6eefa;
   color: #306CC4;
   transition: .5s ease;
 }
@@ -304,23 +304,23 @@ h1{
 }
 
 #projectOne .tile{
-  background-image: url(nile01.png);
+  background-image: url("images/nile01.png");
 }
 
 #projectTwo .tile{
-  background-image: url(onboard01.jpg);
+  background-image: url("images/onboard01.jpg");
 }
 
 #projectThree .tile{
-  background-image: url(portal01.png);
+  background-image: url("images/portal01.png");
 }
 
 #projectFour .tile{
-   background-image: url(plantpot01.PNG); 
+   background-image: url("images/plantpot01.PNG"); 
 }
 
 #projectFive .tile{
-  background-image: url(story01.png);
+  background-image: url("images/story01.png");
 }
 
 #description{

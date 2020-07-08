@@ -130,7 +130,7 @@ function showTwo(){
 function showThree(){
   document.getElementById("descriptionTitle").innerHTML = "Velappity: Client Portal";
   document.getElementById("descriptionText").innerHTML = `
-  <a href=” www.velappity.com” target=”_blank”>Velappity</a> is a software for completing risk assessments and reports. It is accompanied by a Client Portal, an online tracker which allows companies to share their findings with clients. I was tasked with designing various aspects of the portal.
+  <a href="https://www.velappity.com" target="_blank">Velappity</a> is a software for completing risk assessments and reports. It is accompanied by a Client Portal, an online tracker which allows companies to share their findings with clients. I was tasked with designing various aspects of the portal.
   <br><br>I began by creating mood boards to get a feel for different colours, shapes, and styles. As we were building the portal from scratch, it was important to define a look for the project early on.
   <br><br>The Client Portal homepage was designed as a dashboard with various widgets. One of my early designs was a tracking widget which would display information about recent inspections.
   <br><br>The next item I worked on was the Logbook – a calendar style planer which displays scheduled jobs. The previous prototype was a cluttered table with unclear labels. My calendar design made the information much clearer and easier to interact with.
@@ -148,7 +148,7 @@ function showThree(){
 function showFour(){
   document.getElementById("descriptionTitle").innerHTML = "Plantpot: Plant Care Website";
   document.getElementById("descriptionText").innerHTML = `
-  <a href=”https://lottieholland.trinket.io/sites/plantpot” target=”_blank”>Plantpot</a> was a small personal project I undertook to improve my web coding skills. I set myself the challenge of building a website in three days, from concept to completion.
+  <a href="https://lottieholland.trinket.io/sites/plantpot" target="_blank">Plantpot</a> was a small personal project I undertook to improve my web coding skills. I set myself the challenge of building a website in three days, from concept to completion.
   <br><br>I focused on plants after glancing around for inspiration and spotting my windowsill houseplants. Most websites about plant care cater to outdoor gardeners or experienced plant collectors. I decided to create a website geared towards amateurs, those without garden spaces who can only grow potted plants indoors.
   <br><br>The whole site was built with a mobile-first design strategy. This was important for my imagined userbase - mostly young people -  who would be using smartphones to access the site.
   <br><br>I wanted to give the site an informal feel, to make it more inviting to inexperienced growers. As a “fun” feature, I added a houseplant quiz. This really helped me brush up my JavaScript skills as I had to configure the quiz validation.

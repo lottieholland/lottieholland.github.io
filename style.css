@@ -417,3 +417,15 @@ iframe.descriptionImage{
     top: 3px;
   }
 }
+
+footer{
+  padding: 1px;
+  text-align: center;
+  background: #F7F9FD;
+  color: #306CC4;
+  font-size: small;
+}
+
+footer span{
+ font-family: Arial; 
+}

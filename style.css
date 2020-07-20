@@ -86,7 +86,7 @@ header{
   }
 }
 
-.content{
+.content, footer{
   top: 6em;
   left: 0;
   position: relative;

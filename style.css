@@ -350,8 +350,14 @@ h1{
   right: 4%;
 }
 
-#back:hover{
+#back:hover, #backbottom:hover{
   cursor: pointer;
+}
+
+#backbottom{
+  padding-top: 1em;
+  text-align: center;
+  color: #306CC4;
 }
 
 #descriptionText{

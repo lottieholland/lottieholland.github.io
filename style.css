@@ -386,6 +386,11 @@ h1{
   margin-bottom: 0;
 }
 
+iframe.descriptionImage{
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
 #contact{
   background-color: #e6eefa;
   color: #306CC4;

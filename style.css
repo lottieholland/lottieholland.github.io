@@ -2,11 +2,9 @@ body{
   font-family: "Trebuchet MS", Helvetica, Arial, Sans-serif;
   padding: 0;
   margin: 0;
-}
-
-body {
   opacity: 1;
   transition: 1s opacity;
+  overflow-x: hidden;
 }
 
 .fade-out {

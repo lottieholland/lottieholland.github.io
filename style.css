@@ -346,6 +346,7 @@ h1{
   position: absolute;
   display: inline-block;
   right: 4%;
+  color: #306CC4;
 }
 
 #back:hover, #backbottom:hover{

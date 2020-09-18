@@ -168,7 +168,7 @@ function showFive(){
   <br><br>I chose to focus on the taboo subject of sex toys – something I hadn’t seen done before. I wanted to create an animation which had personality and humour, whilst still being informative.
   <br><br>I chose to look at the past, present, and future of the sex toy, so that there was a clearly structured narrative. I began by writing a script and sketching a storyboard.
   <br><br>I kept the animation simple, using 2D vector illustrations. This was my first time creating a digital animation and I wanted to use a style which was simplified yet polished. I focussed on creating fluid motion and elegant scene transitions.
-  <br><br>Although this video is very tongue and cheek, I could easily transfer these skills to a more “serious” animation project in the future.
+  <br><br>Although this video is very tongue-in-cheek, I could easily transfer these skills to a more “serious” animation project in the future.
   `;
   document.getElementById("descriptionImages").innerHTML = `
   <img src="images/story01.png" alt="Illustration" class="descriptionImage">
